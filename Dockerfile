@@ -12,5 +12,5 @@ RUN apt-get -qy install supervisor wget curl git
 RUN apt-get -qy install python-pip && pip install --quiet supervisor-stdout
 
 # Install confd
-RUN curl -qL https://github.com/kelseyhightower/confd/releases/download/v0.5.0-beta2/confd-0.5.0-beta2-linux-amd64 -o /confd && chmod +x /confd
+RUN curl -qL https://github.com/kelseyhightower/confd/releases/download/v0.5.0/confd-0.5.0-linux-amd64 -o /confd && chmod +x /confd
 RUN mkdir -p /etc/confd/{conf.d,templates}
