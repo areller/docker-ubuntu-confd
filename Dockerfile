@@ -1,6 +1,7 @@
 FROM ubuntu:14.04
 
-MAINTAINER "John Goodall <jgoodall@ornl.gov>"
+MAINTAINER "areller"
+LABEL author "John Goodall <jgoodall@ornl.gov>"
 
 ENV DEBIAN_FRONTEND noninteractive
 
